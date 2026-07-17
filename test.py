@@ -237,5 +237,13 @@
 # set1.remove(0)
 # print(set1)
 
-set1=frozenset({1,2})
-set1.add(3)
+# set1=frozenset({1,2})
+# set1.add(3)
+
+import os
+os.getcwd()
+print(os.getcwd)
+
+print(os.listdir())
+
+os.mkdir('test')
