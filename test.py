@@ -93,3 +93,32 @@ print(function_sin(2))
 def add(num1,num2):
     return num1+num2
 print(add(1,2))
+
+#lambda
+
+g=lambda x:2*x+1
+print(g(5))
+
+g= lambda x,y:x+y
+print(g(1,2))
+
+def funX(x):
+    return lambda y:x*y
+
+temp=funX(8)
+print(temp(5))
+
+#filter
+
+temp=filter(None,[1,0,False,True])
+print(list(temp))
+
+def odd(x):
+    return x%2
+
+temp = filter(odd,range(10))
+print(list(temp))
+
+a=list(filter(lambda x:x%2,range(10)))
+print(a)
+
