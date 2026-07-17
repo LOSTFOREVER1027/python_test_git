@@ -176,3 +176,66 @@
 # if result !=-1:
 #     print('Total number is %d' % result)
 
+# def fab(n):
+#     if n<1:
+#         print('input error')
+#         return -1
+#     if n==1 or n==2:
+#         return 1
+#     else:
+#         return fab(n-1)+fab(n-2)
+# result = fab(20)
+# if result != -1:
+#     print('Total number is %d' % result)
+
+# result = fab(35)
+# if result != -1:
+#     print('Total number is %d' % result)
+
+# def hanoi(n,x,y,z):
+#     if n==1:
+#         print(x,'-->',z)
+#     else:
+#         hanoi(n-1,x,z,y)
+#         print(x,'-->',z)
+#         hanoi(n-1,y,x,z)
+# n=int(input('input the number \t'))
+# hanoi(n,'X','Y','Z')
+
+# dict
+
+# a=dict(one=1,two=2,three=3)
+# b={'one':1,'two':2,'three':3}
+# c=dict(zip(['one','two','three'],[1,2,3]))
+# d=dict([('two',2),('one',1),('three',3)])
+# e=(dict({'three':3,'one':1,'two':2}))
+# print(a==b==c==d==e)
+
+#set
+
+# list1=[1,2,3,4,5,6,7,8,9,0]
+# temp=list1[:]
+# list1.clear()
+# for i in temp:
+#     if i not in list1:
+#         list1.append(i)
+# print(list1)
+
+# list1=[0,1,2,3,4,5,6,7,8,9,9,9,9,99,9,9,2,3,4,5,6]
+# list1=list(set(list1))
+# print(list1)
+
+# set1={1,2,3,4,5,4,3,2,1,0}
+# for i in set1:
+#     print(i,end=' ')
+
+# print(set1)
+
+# set1.add(9)
+
+# print(set1)
+# set1.remove(0)
+# print(set1)
+
+set1=frozenset({1,2})
+set1.add(3)
