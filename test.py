@@ -282,3 +282,32 @@
 # except OSError as reason:
 #     print('the wrong reason is :'+ str(reason))
 
+# try:
+#     sum=1+'1'
+#     f=open('fileunexist.txt')
+#     print(f.read())
+#     f.close()
+# except OSError as reason:
+#     print('wrong reason is \t' + str(reason))
+# except TypeError as reason:
+#     print('wrong reason is \t'+ str(reason))
+
+# try:
+#     # sum=1+'1'
+#     f=open('fileunexist.txt')
+#     print(f.read())
+#     f.close()
+# except OSError as reason:
+#     print('wrong reason is \t' + str(reason))
+# except TypeError as reason:
+#     print('wrong reason is \t'+ str(reason))
+# try:
+#     sum=1+'1'
+#     f=open('fileunexist.txt')
+#     print(f.read())
+#     f.close()
+# except (OSError,TypeError) as reason:
+#     print('wrong reason is \t' + str(reason))
+# else:
+#     print('no error')
+
