@@ -240,10 +240,45 @@
 # set1=frozenset({1,2})
 # set1.add(3)
 
-import os
-os.getcwd()
-print(os.getcwd)
+# import os
+# os.getcwd()
+# print(os.getcwd)
 
-print(os.listdir())
+# print(os.listdir())
 
-os.mkdir('test')
+# os.mkdir('test')
+
+#pickle pickling unpickling
+
+# import pickle
+# my_list=[99,549,'love']
+# pickle_file= open(r'C:\Users\HITT\Documents\python\my_list.pkl','wb')
+# pickle.dump(my_list,pickle_file)
+# pickle_file.close()
+
+# import pickle
+
+# pickle_file=open(r'C:\Users\HITT\Documents\python\my_list.pkl','rb')
+# my_list=pickle.load(pickle_file)
+# print(my_list)
+
+
+
+# file_name=input('input the filename you want open\t')
+# f=open(file_name,'r')
+# print('The content of file is\t')
+# for i in f:
+#     print(i)
+
+# try-except
+# try:
+#     f=open('Nosuchfile.txt')
+#     print(f.read())
+#     f.close()
+
+# # except OSError:
+# #     print('wrong process')
+
+# except OSError as reason:
+#     print('the wrong reason is :'+ str(reason))
+
